@@ -7,7 +7,7 @@
 ######################################################################
 p6df::modules::rails::deps() {
   ModuleDeps=(
-    p6m7g8/p6df-ruby
+    p6m7g8-dotfiles/p6df-ruby
     ohmyzsh/ohmyzsh:plugins/rails
     ohmyzsh/ohmyzsh:plugins/bundler
   )
@@ -73,8 +73,6 @@ p6df::modules::rails::home::symlink() {
 #>
 ######################################################################
 p6df::modules::rails::langs() {
-
- 
 
   p6_return_void
 }
