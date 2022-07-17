@@ -45,11 +45,6 @@
 #### p6df-rails/init.zsh:
 
 - p6df::modules::rails::deps()
-- p6df::modules::rails::external::brew()
-- p6df::modules::rails::external::yum()
-- p6df::modules::rails::home::symlink()
-- p6df::modules::rails::init()
-- p6df::modules::rails::langs()
 - p6df::modules::rails::vscodes()
 
 
