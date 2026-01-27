@@ -22,7 +22,7 @@ p6df::modules::rails::deps() {
 ######################################################################
 p6df::modules::rails::vscodes() {
 
-  code --install-extension bung87.rails
+  p6df::modules::vscode::extension::install bung87.rails
 
   p6_return_void
 }
