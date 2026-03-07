@@ -17,7 +17,8 @@
 
 ## Summary
 
-TODO: Add a short summary of this module.
+p6df module for Ruby on Rails: VSCode extensions and MCP server
+(`rails-mcp-server` via brew) for AI-driven Rails development.
 
 ## Contributing
 
@@ -36,6 +37,7 @@ TODO: Add a short summary of this module.
 ##### p6df-rails/init.zsh
 
 - `p6df::modules::rails::deps()`
+- `p6df::modules::rails::mcp()`
 - `p6df::modules::rails::vscodes()`
 
 ## Hierarchy

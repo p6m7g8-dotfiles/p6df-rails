@@ -26,3 +26,17 @@ p6df::modules::rails::vscodes() {
 
   p6_return_void
 }
+
+######################################################################
+#<
+#
+# Function: p6df::modules::rails::mcp()
+#
+#>
+######################################################################
+p6df::modules::rails::mcp() {
+
+  p6df::core::homebrew::cli::brew::install rails-mcp-server
+
+  p6_return_void
+}
