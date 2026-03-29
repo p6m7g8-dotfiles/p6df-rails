@@ -38,5 +38,8 @@ p6df::modules::rails::mcp() {
 
   p6df::core::homebrew::cli::brew::install rails-mcp-server
 
+  p6df::modules::anthropic::mcp::server::add "rails" "rails-mcp-server"
+  p6df::modules::openai::mcp::server::add "rails" "rails-mcp-server"
+
   p6_return_void
 }
