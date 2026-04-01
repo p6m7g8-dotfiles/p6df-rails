@@ -43,3 +43,19 @@ p6df::modules::rails::mcp() {
 
   p6_return_void
 }
+
+######################################################################
+#<
+#
+# Function: words rails $RAILS_ENV = p6df::modules::rails::profile::mod()
+#
+#  Returns:
+#	words - rails $RAILS_ENV
+#
+#  Environment:	 RAILS_ENV
+#>
+######################################################################
+p6df::modules::rails::profile::mod() {
+
+  p6_return_words 'rails' "$RAILS_ENV"
+}
