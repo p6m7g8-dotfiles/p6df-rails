@@ -57,5 +57,5 @@ p6df::modules::rails::mcp() {
 ######################################################################
 p6df::modules::rails::profile::mod() {
 
-  p6_return_words 'rails' "$RAILS_ENV"
+  p6_return_words 'rails' '$RAILS_ENV'
 }
