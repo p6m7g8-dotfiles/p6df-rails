@@ -16,20 +16,6 @@ p6df::modules::rails::deps() {
 ######################################################################
 #<
 #
-# Function: p6df::modules::rails::vscodes()
-#
-#>
-######################################################################
-p6df::modules::rails::vscodes() {
-
-  p6df::modules::vscode::extension::install bung87.rails
-
-  p6_return_void
-}
-
-######################################################################
-#<
-#
 # Function: p6df::modules::rails::mcp()
 #
 #>
@@ -40,6 +26,20 @@ p6df::modules::rails::mcp() {
 
   p6df::modules::anthropic::mcp::server::add "rails" "rails-mcp-server"
   p6df::modules::openai::mcp::server::add "rails" "rails-mcp-server"
+
+  p6_return_void
+}
+
+######################################################################
+#<
+#
+# Function: p6df::modules::rails::vscodes()
+#
+#>
+######################################################################
+p6df::modules::rails::vscodes() {
+
+  p6df::modules::vscode::extension::install bung87.rails
 
   p6_return_void
 }
