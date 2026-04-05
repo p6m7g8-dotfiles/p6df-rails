@@ -47,10 +47,10 @@ p6df::modules::rails::vscodes() {
 ######################################################################
 #<
 #
-# Function: words rails $RAILS_ENV = p6df::modules::rails::profile::mod()
+# Function: words rails = p6df::modules::rails::profile::mod()
 #
 #  Returns:
-#	words - rails $RAILS_ENV
+#	words - rails
 #
 #  Environment:	 RAILS_ENV
 #>
